@@ -1,10 +1,15 @@
-#ifndef _MAIH_H
-#define _MAIN_H
+#ifndef MAIH_H
+#define MAIH_H
 
-#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
 #include <unistd.h>
+
 
 int _printf(const char *format, ...);
 
+int print_number(int num);
+
+int _strlen(const char *str);
 
 #endif
